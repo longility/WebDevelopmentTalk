@@ -70,7 +70,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-.item-title:before {content: "Product - "; font-weight: 800;}
+.item-price:before,.subtotal:before {content: "$"; }
 
 .item-price {
 	position: absolute;
